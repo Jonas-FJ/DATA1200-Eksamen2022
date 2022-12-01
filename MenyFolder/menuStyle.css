@@ -22,7 +22,7 @@ p {
 body {
     margin: auto;
     max-width: 1000px;
-    background-color: #ddd;
+    background-color: rgb(0, 0, 0);
 }
 
 main{
@@ -38,7 +38,9 @@ aside {
     padding-right: 3%;
     margin-left: auto;
     max-height: 300px;
-    box-shadow: 0 0 20px #000000b3;
+    box-shadow: 0 0 20px #ffffffb3;
+    background-color: #ffffffb3;
+}
 }
 
 /* En klasse for og stille tekst til høgre*/
@@ -54,10 +56,11 @@ aside {
     padding-right: 5%;
     padding-bottom: 5%;
     margin-bottom: 10%;
-    box-shadow: 0 0 20px #000000b3;
+    box-shadow: 0 0 20px #ffffffb3;
+    background-color: #ffffffb3;
 }
 
-/* En klasse for å fylle en grid rad med tittel */
+/* En klasse for å fylle begge kolonnene med tittel */
 .grid-headding {
     grid-column: 1 / span 2;
 }
