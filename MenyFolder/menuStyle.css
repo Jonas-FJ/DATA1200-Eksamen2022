@@ -48,6 +48,7 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 /* En klasse for og stille tekst til høgre*/
@@ -84,5 +85,60 @@ footer {
 .flex-container-row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+label.logo{ /*Logo for siden*/
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+a.active,a:hover{ /*Kode for hovering av kanppene øverst på toppen*/
+    background: #bebebe;
+    transition: .5s;
+}
+
+nav{ /*Kode for boks på toppen av siden.*/
+    background: #ddd;
+    height: 80px;
+    width: 100%;
+}
+label.logo{ /*Logo for siden*/
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 5%;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{ /*Kode for farge for knappene øverst på nettsiden*/
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{ /*Kode for farge til knappene øverst på siden*/
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
 
