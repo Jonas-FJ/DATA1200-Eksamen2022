@@ -7,6 +7,7 @@
 }
 body{
     font-family: CormorantGaramond-bold; /* Fonten for Siden */ 
+    background-color: #ddd;
 }
 nav{ /*Kode for boks på toppen av siden.*/
     background: #ddd;
@@ -225,4 +226,19 @@ textarea { /*Kode for lenge av boksen til "spesialforespørsel"*/
 @media screen and (max-width: 880px){
     .contact-box { grid-template-columns: lfr;
     }
+}
+
+.flex-container-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    margin-top: 10%;
 }
