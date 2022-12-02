@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: CormorantGaramond-bold; /* Fonten for Siden */ 
+}
+nav{ /*Kode for boks på toppen av siden.*/
+    background: #ddd;
+    height: 80px;
+    width: 100%;
+}
+label.logo{ /*Logo for siden*/
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{ /*Kode for farge for knappene øverst på nettsiden*/
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{ /*Kode for farge til knappene øverst på siden*/
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{ /*Kode for hovering av kanppene øverst på toppen*/
+    background: #bebebe;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+.VENUE{ /*Bakgrunnsbilde for design av nettsiden.*/
+    background: url(https://live.staticflickr.com/3034/2773298282_b2d6638825.jpg) no-repeat;
+    background-size:cover;
+    height: 50vh;
+    filter: brightness(45%);
+}
+
+.LSD{ /*Kode for header over bildet.*/
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 32%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    font-family: CormorantGaramond-bold;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #fff;
+    line-height: 70px;
+    text-align: center; 
+    margin: 0; 
+    z-index: 9;
+}
+
+.underline { /*Kode for underlinen over bildet*/
+    border-bottom: 1px solid white;
+    width: 10%;
+    display: inline-block;
+    padding-left: 25%;
+    position: absolute; 
+    top: 32%; 
+    left: 37.5%; 
+  }
+
+.LSD2{ /*Koden for paragraph tekst linje 1 over bildet*/
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    font-family: CormorantGaramond-regular;
+    font-size: 17px; 
+    color: #fff;
+    line-height: 70px;
+    text-align: center; 
+    margin: 0; 
+    z-index: 9;       
+}
+
+.LSD3{ /*Koden for paragraph tekst linje 2 over bildet*/
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 43%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    font-family: CormorantGaramond-regular;
+    font-size: 17px; 
+    color: #fff;
+    line-height: 70px;
+    text-align: center; 
+    margin: 0; 
+    z-index: 9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { /*Høyde og bredde for boks i forhold til nettsiden*/
+    height: 98vh;
+    width: 100%;
+}
+
+.container { /*Kode for størrelse for hele siden.*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #ddd;
+}
+
+.contact-box { /*kode for størrelse for boks bak nyhetsbrev info input. */
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ddd(255, 0, 0);
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    margin-bottom: 125px;
+}
+
+.formulaire { /*størrese for boks til nyhetsbrev*/
+    text-align: center;
+    padding: 20px 40px;
+}
+
+h2 { /*Kode for posisjon fakrgestrek under header til nyhetsbrev*/ 
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h2:after { /*Kode for fagre til fargestrek under header til nyhetsbrev*/
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #7825A0;
+}
+
+.form { /* Kode for tekst inne i inputboksene.*/
+    width: 222%;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    background-color: rgb(237, 235, 235);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    font-family: CormorantGaramond-regular;
+}
+
+.form:hover { /*Kode for endring av farge ved hover over inputboksene. */
+    background-color: rgba(0, 0, 0, 0.115);
+}
+textarea { /*Kode for lenge av boksen til "spesialforespørsel"*/
+    min-height: 150px;
+}
+.btn { /*Kode for knapp for å melde på nyhetsbrev*/
+    width: 222%;
+    padding: 0.5rem 1rem;
+    background-color: #7825A0;
+    color: #fff;
+    font-size: 1.1rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    font-family: CormorantGaramond-regular;
+}
+.btn:hover { /*Kode for nor man hover over påmeldingsknappen*/
+    background-color: #4f196a;
+}
+.form:focus {
+    border:2px solid rgba(30, 85, 250, 0.47);
+    background-color: rgb(251, 250, 250);
+}
+@media screen and (max-width: 880px){
+    .contact-box { grid-template-columns: lfr;
+    }
+}

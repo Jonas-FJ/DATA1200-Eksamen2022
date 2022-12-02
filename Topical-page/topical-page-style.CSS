@@ -1,0 +1,83 @@
+*{
+        background-color: #ddd;
+    }
+
+    
+H1{
+    font-family: "Goudy old style", helvetica, sans-serif;
+    font-size: 3em;
+    color:#7825A0;
+    text-align: center;
+}
+
+
+H2{
+    font-family: "Goudy old style", helvetica, sans-serif;
+    font-size: 3em;
+    color:#7825A0;
+    text-align: center;
+}
+
+
+H3{
+    font-family: "Goudy old style", helvetica, sans-serif;
+    font-size: 3em;
+    color:#7825A0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+p{
+      border: 2px solid black;
+      padding: 30px;
+      margin: 50px;
+      text-align: justify;
+      font-size: 20px;
+}
+
+/* en klasse for alle bilder som legger det til venstre  */
+    
+img {
+      float: left;
+}
+
+/* egne id som formater bilde */
+
+#bilde1 {
+        width: 400px;
+        height:300px;
+        margin-right:20px;
+        margin-left:5px;
+        margin-bottom:5px;
+}
+
+/* egne id som formater bilde */
+
+#bilde2 {
+        width:400px;
+        height:300px;
+        margin-right:20px;
+        margin-left:5px;
+        margin-bottom:5px;
+}
+
+/* En klasse som plasserer bilde inn i boksen den skal  */
+
+    
+.Fiksebilde::after {
+      content: "";
+      clear: both;
+      display: table;
+}
+
+/* en egen klasse for å legge en bok run uordnet liste */
+
+ul{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 50px;
+    text-align: justify;
+    font-size:20px;
+}
+

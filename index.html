@@ -1,13 +1,62 @@
+ <!-- Navn på koden og liken mellom css og html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>welcomepage.html</title>
+    <link rel="stylesheet" type="text/css" href="index-style.css">
 </head>
 <body>
-    <a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/MenyFolder/menu.html">Meny</a>
-    <a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/booking-page/booking-page.html">Booking</a>
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+ <!--Kode for knapper på toppen av siden, som fører til forskjellige funksjoner på nettsiden.-->
+    <nav>
+        <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">.
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">LA SUITE DSANI</label>
+            <ul>
+                <li><a class="active" href="https://jonas-fj.github.io/DATA1200-Eksamen2022/">Hjem</a></li>
+                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/booking-page/booking-page.html">Reservasjon</a></li>
+                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/MenyFolder/menu.html">Meny</a></li>
+                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Tilgjenlighet-page/tilgjenglighet.html">Tilgjenlighet info</a></li>
+                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Topical-page/topical-page.html">Topical page</a></li>
+            </ul>
+            
+    </nav>
+
+<!--Kode for designbilde og tekst på innsiden av bildet.-->
+        <div>
+            <section class="VENUE"></section>
+            <h1 class="LSD">LA SUITE DSANI</h1>
+            <h1 class="underline">_</h1>
+            <p1 class="LSD2">Choose and taste to your place</p1>
+        </div>
+
+<!--Kode for Nyhetsbrev boks. -->
+        <div class="container">
+            <div class="contact-box">
+                <div class="formulaire">
+                    <h2>FÅ VÅRT NYHETSBREV</h2>
+                 
+                
+        <label>_       
+        <input type="text" class="form" placeholder="Navn"></label>
+        <label>_
+        <input type="text" class="form" placeholder="E-Mail"></label>
+        <label>_
+        <input type="text" class="form" placeholder="Telefon"></label>
+        <label>_
+        <textarea placeholder="Spesialforespørsel" class="form"></textarea></label>
+        <button class="btn">Meld meg på!</button>
+                 
+                </div>
+            </div>
+        </div>
 </body>
 </html>
