@@ -21,7 +21,7 @@ p {
 }
 
 body {
-    margin: auto;
+    margin: 0;
     background-color: #ddd;
 }
 
@@ -41,7 +41,9 @@ aside {
     max-height: 325px;
     box-shadow: 0 0 20px #000300;
 }
-
+ul {
+    margin: 0;
+}
 /* En klasse for og stille tekst til høgre*/
 .textRight {
     text-align: right;

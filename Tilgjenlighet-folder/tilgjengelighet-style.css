@@ -1,6 +1,4 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 h1 {
     font-family: garamond, helvetica, sans-serif;
     color: #7825A0;
@@ -12,6 +10,10 @@ h2 {
     color: #7825A0;
     font-size: 40px;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a{
     color: blue;
 }
@@ -20,6 +22,7 @@ figcaption {
 }
 body {
     background-color: #ddd;
+    margin: 0%;
 }
 main {
     max-width: 1000px;
@@ -28,5 +31,7 @@ main {
 figure{
     display: inline-block;
     margin-left: 0%;
-
+}
+ul {
+    margin: 0;
 }
