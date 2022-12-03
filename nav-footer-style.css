@@ -1,0 +1,60 @@
+nav{ /*Kode for boks på toppen av siden.*/ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    background: #ddd;
+    height: 80px;
+    width: 100%;
+}
+label.logo{ /*Logo for siden*/ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 5%;
+    font-weight: bold;
+}
+nav ul{ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{ /*Kode for farge for knappene øverst på nettsiden*/ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{ /*Kode for farge til knappene øverst på siden*/ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    color: rgb(4, 4, 4);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{ /*Kode for hovering av kanppene øverst på toppen*/ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    background: #bebebe;
+    transition: .5s;
+}
+.checkbtn{ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{ /*Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885 */
+    display: none;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    margin-top: 10%;
+}

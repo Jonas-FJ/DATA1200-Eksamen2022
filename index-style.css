@@ -9,52 +9,6 @@ body{
     font-family: CormorantGaramond-bold; /* Fonten for Siden */ 
     background-color: #ddd;
 }
-nav{ /*Kode for boks på toppen av siden.*/
-    background: #ddd;
-    height: 80px;
-    width: 100%;
-}
-label.logo{ /*Logo for siden*/
-    color: #000;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 5%;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{ /*Kode for farge for knappene øverst på nettsiden*/
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a{ /*Kode for farge til knappene øverst på siden*/
-    color: rgb(4, 4, 4);
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-a.active,a:hover{ /*Kode for hovering av kanppene øverst på toppen*/
-    background: #bebebe;
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-
 
 .VENUE{ /*Bakgrunnsbilde for design av nettsiden.*/
     background: url(https://live.staticflickr.com/3034/2773298282_b2d6638825.jpg) no-repeat;
@@ -140,7 +94,7 @@ body { /*Høyde og bredde for boks i forhold til nettsiden*/
     width: 100%;
 }
 
-.container { /*Kode for størrelse for hele siden.*/
+.container { /*Kode for størrelse for hele siden.*//*kode fra https://www.tiktok.com/@tutoshtml/video/7166922535857048837?_r=1&_t=8XsRnoC3F2c&is_from_webapp=v1&item_id=7166922535857048837 */
     position: relative;
     width: 100%;
     height: 100%;
@@ -151,7 +105,7 @@ body { /*Høyde og bredde for boks i forhold til nettsiden*/
     background-color: #ddd;
 }
 
-.contact-box { /*kode for størrelse for boks bak nyhetsbrev info input. */
+.contact-box { /*kode for størrelse for boks bak nyhetsbrev info input. *//*kode fra https://www.tiktok.com/@tutoshtml/video/7166922535857048837?_r=1&_t=8XsRnoC3F2c&is_from_webapp=v1&item_id=7166922535857048837 */
     max-width: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -163,7 +117,7 @@ body { /*Høyde og bredde for boks i forhold til nettsiden*/
     margin-bottom: 125px;
 }
 
-.formulaire { /*størrese for boks til nyhetsbrev*/
+.formulaire { /*størrese for boks til nyhetsbrev*//*kode fra https://www.tiktok.com/@tutoshtml/video/7166922535857048837?_r=1&_t=8XsRnoC3F2c&is_from_webapp=v1&item_id=7166922535857048837 */
     text-align: center;
     padding: 20px 40px;
 }
@@ -186,8 +140,8 @@ h2:after { /*Kode for fagre til fargestrek under header til nyhetsbrev*/
     background-color: #7825A0;
 }
 
-.form { /* Kode for tekst inne i inputboksene.*/
-    max-width: 222%;
+.form { /* Kode for tekst inne i inputboksene.*//*kode fra https://www.tiktok.com/@tutoshtml/video/7166922535857048837?_r=1&_t=8XsRnoC3F2c&is_from_webapp=v1&item_id=7166922535857048837 */
+    width: 222%;
     border: 2px solid rgba(0,0,0,0);
     outline: none;
     background-color: rgb(237, 235, 235);
@@ -226,19 +180,4 @@ textarea { /*Kode for lenge av boksen til "spesialforespørsel"*/
 @media screen and (max-width: 880px){
     .contact-box { grid-template-columns: lfr;
     }
-}
-
-.flex-container-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    padding: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
-    justify-content: space-between;
-    margin-top: 10%;
 }

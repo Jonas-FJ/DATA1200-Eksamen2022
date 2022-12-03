@@ -5,26 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tilgjenglighet</title>
-    <link rel="stylesheet" href="tilgjengelighet-style.css">
+    <link rel="stylesheet" type="text/css" href="tilgjengelighet-style.css">
+    <link rel="stylesheet" type="text/css" href="/nav-footer-style.css">
 
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">.
-                <i class="fas fa-bars"></i>
-            </label>
-            <label class="logo">LA SUITE DSANI</label>
-            <ul>
-                <li><a class="active" href="https://jonas-fj.github.io/DATA1200-Eksamen2022/">Hjem</a></li>
-                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/booking-page/booking-page.html">Reservasjon</a></li>
-                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/MenyFolder/menu.html">Meny</a></li>
-                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Tilgjenlighet-folder/tilgjengelighet.html">Tilgjengelighet info</a></li>
-                <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Topical-page/topical-page.HTML">Topical page</a></li>
-            </ul>
-            
-    </nav>
+     <!--Kode fra https://www.tiktok.com/@tutoshtml/video/7160638300993178885?_r=1&_t=8XsRhzNap1B&is_from_webapp=v1&item_id=7160638300993178885-->
+ <!--Kode for knapper på toppen av siden, som fører til forskjellige funksjoner på nettsiden.-->
+ <nav>
+    <label class="logo">LA SUITE DSANI</label>
+    <ul>
+        <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/">Hjem</a></li>
+        <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/booking-page/booking-page.html">Reservasjon</a></li>
+        <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/MenyFolder/menu.html">Meny</a></li>
+        <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Tilgjenlighet-folder/tilgjengelighet.html">Tilgjengelighet info</a></li>
+        <li><a href="https://jonas-fj.github.io/DATA1200-Eksamen2022/Topical-page/topical-page.HTML">Topical page</a></li>
+    </ul>
+</nav>
 
+    <h1>Info om brukervennlighet og inkluderende design</h1>
+
+    <main>
+        
+        <p>
+            Vi gjorde denne oppgaven som en gruppe, vi testet gjennom hver vår del av oppgaven for
+            tilgjengelighet og bruk for folk med ulike former for funksjonsnedsettelse. 
+        </p>
+
+        <h2>Automatiske tester</h2>
+
+        <p>
+            Vi brukte automatiske tester som blant annet <a href="https://wave.webaim.org/" target="_blank">WAVE</a> til å teste hver vår
+            egen nettside. Til slutt koblet vi kodene sammen med hverandre ved hjelp av GitHub . Etter
+            sammensetningen av koden fikk vi opp flere potensielle feil som vi ville ha muligheten til å
+            rette før innlevering av oppgaven. Bildet under viser hva vi fikk opp av feil på menyen som vi
+            har gjort forsøk på å endre.
+        
+        <figure class="figure-left">
+            <img src="Tilgjengelighet-bilder/WAVE-kontroll-før.png" alt="Reservasjon siden våres bli automatisk testet. Og viser feil" width="500px" height="200px">
+            <figcaption>Fig 1. Test før endringer</figcaption>
+        </figure>
+        </p>
+        <p>
+            Etter å ha forsøkt flere ganger og funnet årsaken til feilen fikk vi endelig rettet på den og sendt
+            den inn til nettsiden på nytt. Der fikk vi opp at det ikke kom noen feil på den nye varianten av
+            koden. Bilder under er hvordan det så ut etter å ha prøvd dette
+        </p>
+        <figure class="figure-right">
+            <img src="Tilgjengelighet-bilder/WAVE-kontroll-før.png" alt="Reservasjon siden våres bli automatisk testet. Nå er feilene rettet opp" width="500px" height="200px">
+            <figcaption>Fig 2. Test etter endringer</figcaption>
+        </figure>
+
+        <h2>Design valg</h2>
+        <p>
+            Vår designvalg gikk ut på at vi blant annet kunne ha gode alternative tekster til bildene, slik at
+            personer med funksjonsnedsettelse i øynene kan trygt bruke screenreaders på nettsiden våres.
+        </p>
+        <p>
+            For å få til ett godt valg av farger som skapte kontrast så tok vi i bruk en nettsiden som heter 
+            <a href="https://color.adobe.com/nb/create/color-contrast-analyzer" target="_blank">color.adobe.com </a>, der kunne vi bruke de forskjellige verktøyene til å teste fargene vi valgte. Og
+            så kunne vi få opp alternative farger hvis kontrasten var for lav.
+        </p>
+        <p>
+            Generelt passet vi på å ha et design som er rent og oversiktlig med tydelig tekst og layout.
+        </p>
+    </main>
 
     <footer class="flex-container-row">
         <address>
