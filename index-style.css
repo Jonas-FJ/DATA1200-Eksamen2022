@@ -181,3 +181,6 @@ textarea { /*Kode for lenge av boksen til "spesialforespørsel"*/
     .contact-box { grid-template-columns: lfr;
     }
 }
+figcaption {
+    font-size: small;
+}
